@@ -1,4 +1,4 @@
-package com.gxh.natural.config;
+package com.gxh.natural.common.config;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.context.annotation.Configuration;

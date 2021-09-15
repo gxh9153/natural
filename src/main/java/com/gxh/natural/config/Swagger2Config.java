@@ -25,6 +25,7 @@ public abstract class Swagger2Config {
                 .apiInfo(apiInfo(swaggerProperties))
                 .select()
                 .apis(RequestHandlerSelectors.basePackage(swaggerProperties.getApiBasePackage()))
+                //.apis(RequestHandlerSelectors.basePackage("com.gxh.natural.modules.ums.controller"))
                 .paths(PathSelectors.any())
                 .build();
         if (swaggerProperties.isEnableSecurity()) {
